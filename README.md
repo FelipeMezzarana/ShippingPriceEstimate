@@ -15,7 +15,8 @@ The first notebook ‘creating_and_treating_df’ consists of:
 The second notebook ‘freight_price_estimate’ consists of:
 
 + Feature Engineering
-+ EDA and deal with outliers 
++ Feature Selection
++ Dealing with Outliers 
 + Establish metrics and baseline
 + Build and evaluate two models (XGBoost and RandomForest)
 + Parameter Tuning
