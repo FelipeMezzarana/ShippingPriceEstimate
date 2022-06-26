@@ -10,6 +10,7 @@ The first notebook ‘creating_and_treating_df’ consists of:
 + Select the relevant infos from the database 
 + Merge everything in a single DataFrame 
 + Treat missing values 
++ Initial Feature Selection 
 
 The second notebook ‘freight_price_estimate’ consists of:
 
