@@ -19,4 +19,4 @@ The second notebook ‘freight_price_estimate’ consists of:
 + Dealing with Outliers 
 + Establish metrics and baseline
 + Build and evaluate three models (XGBoost, RandomForest and Linear Regression)
-+ Parameter Tuning
++ Hyperparameter Tuning
