@@ -19,5 +19,6 @@ We chose to separate the project in two files to not make the notebooks extremel
 + Feature Selection
 + Dealing with Outliers 
 + Establish metrics and baseline
-+ Build and evaluate three models (XGBoost, RandomForest and Linear Regression)
-+ Hyperparameter Tuning
++ Hyperparameter Tuning with grid search (XGBoost and RandomForest)
++ Model selection - evaluation between three models(XGBoost, RandomForest and Linear Regression)
++ Overfitting/Underfitting Analysis with learning curve
