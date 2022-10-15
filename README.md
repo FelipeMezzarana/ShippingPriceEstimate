@@ -22,3 +22,33 @@ We chose to separate the project in two files to not make the notebooks extremel
 + Hyperparameter Tuning with grid search (XGBoost and RandomForest)
 + Model selection - evaluation between three models(XGBoost, RandomForest and Linear Regression)
 + Overfitting/Underfitting Analysis with learning curve
+
+# Project Structure
+
+```bash
+│   .gitignore
+│   creating_and_treating_df.ipynb
+│   README.md
+│   shipping_price_estimate.ipynb
+│
+├───API
+│   │   API_test.ipynb
+│   │   dockerfile
+│   │   requirements.txt
+│   │   server.py
+│   │   shipping_estimate_model.pkl
+│
+├───generated_files
+│       olist_shipping_base_df.csv
+│       shipping_estimate_model.pkl
+│
+└───olist_database_files
+        olist_customers_dataset.csv
+        olist_geolocation_dataset.csv
+        olist_orders_dataset.csv
+        olist_order_items_dataset.csv
+        olist_order_payments_dataset.csv
+        olist_order_reviews_dataset.csv
+        olist_products_dataset.csv
+        olist_sellers_dataset.csv
+ ```
