@@ -31,13 +31,13 @@ class Output(BaseModel):
 
 @app.get('/')
 async def home_page():
+    """Check app health"""
     return{app_name:app_version}
 
 @app.post("/predict", response_model=Output)
 async def read_root(input: Model_input):
-    """Make predictions """
+    """Make predictions"""
     input_df = pd.DataFrame(input.dict(),index = [0])
     predict_price = model.predict(input_df)[0]
  
     return {'shipping_estimated_price': round(predict_price,2)}
-
